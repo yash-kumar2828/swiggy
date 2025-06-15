@@ -1,0 +1,263 @@
+body{
+    right: 110px;
+}
+*{
+    margin: 0;
+font-family: Arial;
+border: border-box;
+}
+
+
+
+/* all header css are here  */
+header{
+    margin-top: 2rem;
+}
+.navbar{
+    height: 70px;
+}
+.swglogo{
+   height: 38px;
+   width: 40px;
+   margin-left: 15px;
+   margin-top: 9px;
+   position: absolute;
+   border-radius: 10px;
+}
+.oth{
+    position: relative;
+    top: 1.8rem;
+    left: 120px;
+    text-decoration: none;
+    color: black;
+}
+.content{
+    width: 700px;
+    display: flex;
+    position: absolute;
+    right: 40px;
+    margin-top: 0.8rem;
+    justify-content: space-evenly;
+   
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: orange;
+}
+.cont{
+    display: none;
+}
+
+
+
+
+/*all main content css are here   */
+pre{
+    font-size: 3vmax;
+    font-size: 900;
+}
+.maincontent{
+    overflow: scroll ;
+}
+.mind{
+    height: 144px;
+    width: 180px;
+    display: inline-block;
+    position: relative;
+    left: 20px;    
+}
+.img{
+    width: 10vmax;
+}
+.border{
+    width: 90%;
+    border: 1px solid #777777;
+    margin-left: 5%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.res{
+    height: 273px;
+    width: 207px;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    margin-left: 25px;
+}
+.img2{
+    height: 20vmax;
+    width: 15vmax;
+    border-radius: 10px;
+}
+
+.img2:hover{
+    background-color: white;
+    box-shadow: 25px 24px 25px rgb(221, 215, 215);
+    transition:0.2s;
+}
+.maincontent2{
+    overflow: scroll ;
+}
+
+.cities{
+    width: 100%;
+}
+.city{
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-left: 4rem;
+}
+.allcity{
+    height: 70px;
+    width: 160px;
+    font-size: 18px;
+    margin-top: 20px;
+    color: black;
+    border:1px solid #777777  ;
+    border-radius: 20px;
+    display:flex ;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+  text-decoration: none;
+} 
+
+
+
+
+
+/* border1 css are here  */
+.border1{
+    width: 90%;
+    border: 1px solid #777777;
+    margin-left: 5%;
+    margin-top: 2rem;
+}
+
+
+
+
+/* all footer css are here */
+footer{
+    width: 100%;
+    background-color: rgb(174, 165, 165);
+}
+
+.stores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store{
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.ex{
+    margin-left: 74px;
+    font-size: 2vmax;
+}
+.swg{
+    display: flex;
+    margin-left: 5rem;
+}
+.swiggy1{
+    height: 5vmax;
+    border-radius: 10px;
+}
+.swiggy2{
+    color: orange;
+    font-size: 2.5vmax;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.lim{
+    margin-left: 5rem;
+    margin-top: 10px;
+}
+
+
+.con{
+    display: flex;
+    gap: 50px;
+}
+
+.con1{
+    height: 350px;
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    top: -70px;
+    left: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media query of 900px all css are here   */
+@media(max-width:900px){
+    .content{
+        display: none;
+    }
+    .oth{
+        margin-left: -6rem;
+    }
+    .swglogo{
+        display: none;
+    }
+    .cont{
+        display: flex;
+        margin-left: 90%;
+        margin-top: 0.8rem;
+    }
+    .maincontent{
+        display: flex;
+    }
+    .maincontent2{
+        display: flex;
+    }
+    .city{
+        display: grid;
+        grid-template-columns: auto auto ;
+        margin-left:2rem;
+    }
+    .allcity{
+        width: 120px;
+        height: 90px;
+    }
+    .ex{
+        margin-left: 40px;
+    }
+    .swg{
+        margin-left: 40px;
+    }
+    .lim{
+        margin-left: 40px;
+    }
+    .con{
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 10px;
+    }
+    .con1{
+        position: relative;
+        top: 70px;
+        left: 40px;
+    }
+    footer{
+        width: 110%;
+    }
+}
